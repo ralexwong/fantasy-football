@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fantasy-football/static/css/main.34de6062.chunk.css",
+    "main.js": "/fantasy-football/static/js/main.7e82dc9d.chunk.js",
+    "main.js.map": "/fantasy-football/static/js/main.7e82dc9d.chunk.js.map",
+    "runtime~main.js": "/fantasy-football/static/js/runtime~main.5861c355.js",
+    "runtime~main.js.map": "/fantasy-football/static/js/runtime~main.5861c355.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/fantasy-football/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/fantasy-football/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/fantasy-football/index.html",
+    "precache-manifest.8aff3538549ccefdccb83e8bbe10dd80.js": "/fantasy-football/precache-manifest.8aff3538549ccefdccb83e8bbe10dd80.js",
+    "service-worker.js": "/fantasy-football/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/fantasy-football/static/css/main.34de6062.chunk.css.map"
+  }
+}
