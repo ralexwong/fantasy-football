@@ -8,13 +8,14 @@ import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
 import Title from "../components/Title";
 import DateRow from "../components/DateRow";
+import Scoreboard from "../components/Scoreboard";
 
 class Main extends Component {
     state = {
-      books: [],
-      title: "",
-      author: "",
-      synopsis: ""
+      weekNum: 1,
+      matchups: [],
+      leagueid: [],
+      username: ""
     };
   
     componentDidMount() {
@@ -59,7 +60,15 @@ class Main extends Component {
       return (
         <div>
           <Title />
-          <DateRow />
+          <DateRow weekNum={this.state.weekNum}/>
+          <Container>
+            <Row>
+              <Col size="-6">
+                <Scoreboard weekNum={this.state.weekNum}/>
+
+              </Col>
+            </Row>
+          </Container>
         </div>
 
       );

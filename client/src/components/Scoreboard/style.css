@@ -1,0 +1,10 @@
+#scoreboard {
+    text-align: center;
+    margin: 0px auto;
+}
+
+#scoreboardWeek {
+    margin: 0px auto;
+    background: rgb(0, 0, 172);
+    color:white;
+}
