@@ -4,7 +4,7 @@ import { Col, Row, Container } from "../Grid";
 
 function Scoreboard(props) {
     return (
-        <Container>
+        <div>
             <Row>
                 <p id="scoreboard">SCOREBOARD</p>
             </Row>
@@ -13,7 +13,7 @@ function Scoreboard(props) {
                     <p>Week {props.weekNum}</p>
                 </div>
             </Row>
-        </Container>
+        </div>
     );
 }
 

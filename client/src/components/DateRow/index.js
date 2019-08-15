@@ -6,7 +6,7 @@ function DateRow(props) {
     return (
         <Row id="dateRowDiv">
             <img src="" alt=""></img>
-            <Col size="-10">
+            <Col className="col-10">
                 <p>{props.date}</p>
             </Col>
             <Col >
