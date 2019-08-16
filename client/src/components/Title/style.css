@@ -4,11 +4,12 @@
 }
 
 #title {
-    font-size: 40px;
+    font-size: 80px;
+    font-family: 'Vast Shadow', cursive;
     text-align: center;
 }
 
 #caption {
-    font-size:10px;
+    font-size: 30px;
     text-align: center;
 }

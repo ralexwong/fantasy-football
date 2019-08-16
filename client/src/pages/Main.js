@@ -9,6 +9,9 @@ import Title from "../components/Title";
 import DateRow from "../components/DateRow";
 import Scoreboard from "../components/Scoreboard";
 import ScoreboardRow from "../components/ScoreboardRow";
+// import Card from "../components/Card";
+import {UserCard, Card} from 'react-ui-cards';
+
 
 class Main extends Component {
     state = {
@@ -65,14 +68,35 @@ class Main extends Component {
           <DateRow weekNum={this.state.weekNum}/>
           <Container>
             <Row>
-              <Container>
-                <Col className="col-6">
-                  <Scoreboard weekNum={this.state.weekNum}/>
-                  {this.state.matchups.map(matchup => (
-                    <ScoreboardRow key={matchup}/>
-                  ))}
-                </Col>
-              </Container>
+              <Col className="col-6">
+                <Scoreboard weekNum={this.state.weekNum}/>
+                {this.state.matchups.map(matchup => (
+                  <ScoreboardRow key={matchup}/>
+                ))}
+              </Col>
+              <Col className="col-6">
+              <UserCard
+                cardClass='float'
+                header='https://i.imgur.com/w5tX1Pn.jpg'
+                avatar='https://i.imgur.com/uDYejhJ.jpg'
+                name='Justin Case'
+                positionName='Software Developer'
+                stats={[
+                  {
+                    name: 'followers',
+                    value: 21
+                  },
+                  {
+                    name: 'following',
+                    value: 37
+                  },
+                  {
+                    name: 'posts',
+                    value: 117
+                  }
+                ]}
+              />
+              </Col>
             </Row>
           </Container>
         </div>
