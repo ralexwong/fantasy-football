@@ -7,7 +7,7 @@ function DateRow(props) {
         <Row id="dateRowDiv">
             <img src="" alt=""></img>
             <Col className="col-10">
-                <p>{props.date}</p>
+                <input></input>
             </Col>
             <Col >
                 <p>Season 1 | Week {props.weekNum}</p>

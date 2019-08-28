@@ -1,68 +1,48 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Fantasy Football Weekly Recaps
 
-In the project directory, you can run:
+<hr />
 
-### `npm start`
+This app is aimed towards commissioners of fantasy football leagues who want to make things more fun. Or those who like looking at leaderboards/stats. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How it works
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<hr />
 
-### `npm test`
+<ul>
+  <li>You pick which platform your league is in and what week you want the recap to show</li>
+  <li>Depending on the platform you may need to provide more information such as username or league ID</li>
+  <li>Press submit and the app will pull your leagues info through the API and download it into our database</li>
+  <li>It will then pull from the database and display the stats on the screen!</li>
+  <li>For now, you will need to take a screenshot of the page. But a `print to pdf` button will eventually make its way into this app to make things easier</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Visuals
 
-### `npm run build`
+<hr />
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Image](./client/public/images/fantasy.jpg "fantasy")  ![Image](./client/public/images/fantasy2.jpg "fantasy2")
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Roadmap
 
-### `npm run eject`
+<hr />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The site will only be compatiatible with sleeper leagues for now. I want to have a working app before i start to integrate more platforms. Eventually ESPN and YAHOO leagues will work with this app. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Suggestions/Feedback
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<hr />
 
-## Learn More
+If you would like to suggest any improvements or have anything to say about the app please let me know through email at alexhwong@hotmail.com or https://www.linkedin.com/in/iamwong/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Support
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<hr />
 
-### Analyzing the Bundle Size
+If you are having trouble using this site please let me know through linkedin https://www.linkedin.com/in/iamwong/ or shoot me an email at alexhwong@hotmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
