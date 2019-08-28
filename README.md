@@ -2,7 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Fantasy Football Weekly Recaps
 <hr />
-
 This app is aimed towards commissioners of fantasy football leagues who want to make things more fun. Or those who like looking at leaderboards/stats. 
 
 ## How it works
