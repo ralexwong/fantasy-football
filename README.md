@@ -1,13 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Fantasy Football Weekly Recaps
-
+<hr />
 
 This app is aimed towards commissioners of fantasy football leagues who want to make things more fun. Or those who like looking at leaderboards/stats. 
 
 ## How it works
-
-<hr />
 
 <ul>
   <li>You pick which platform your league is in and what week you want the recap to show</li>
@@ -19,21 +17,18 @@ This app is aimed towards commissioners of fantasy football leagues who want to 
 
 ## Visuals
 
-<hr />
 
 ![Image](./client/public/images/fantasy.jpg "fantasy")  ![Image](./client/public/images/fantasy2.jpg "fantasy2")
 
 
 ## Roadmap
 
-<hr />
 
 The site will only be compatiatible with sleeper leagues for now. I want to have a working app before i start to integrate more platforms. Eventually ESPN and YAHOO leagues will work with this app. 
 
 
 ## Suggestions/Feedback
 
-<hr />
 
 If you would like to suggest any improvements or have anything to say about the app please let me know through email at alexhwong@hotmail.com or https://www.linkedin.com/in/iamwong/
 
@@ -41,7 +36,6 @@ If you would like to suggest any improvements or have anything to say about the 
 
 ## Support
 
-<hr />
 
 If you are having trouble using this site please let me know through linkedin https://www.linkedin.com/in/iamwong/ or shoot me an email at alexhwong@hotmail.com
 
