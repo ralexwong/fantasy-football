@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css";
-import { Col, Row, Container } from "../Grid";
+import { Col, Row } from "../Grid";
 
 function ScoreboardRow(props) {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import {UserCard, Card} from 'react-ui-cards';
+import { UserCard } from 'react-ui-cards';
 
 function PlayerCard(props) {
     return (
