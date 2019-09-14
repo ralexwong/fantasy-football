@@ -1,3 +1,6 @@
 module.exports = {
-  Book: require("./book")
+  Bitcoin: require("./bitcoin"),
+  Ethereum: require("./ethereum"),
+  Litecoin: require("./litecoin")
+
 };

@@ -1,9 +1,9 @@
 const path = require("path");
 const router = require("express").Router();
-const apiRoutes = require("./coinMarket");
+const userRoutes = require("./account");
 
 // Book routes
-router.use(apiRoutes);
+router.use(userRoutes);
 
 // For anything else, render the html page
 router.use(function(req, res) {

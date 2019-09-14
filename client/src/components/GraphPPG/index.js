@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import {
-  LineChart, Line, XAxis, YAxis, CartesianGrid, Legend,
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Legend, Tooltip
 } from 'recharts';
 import "./style.css";
 
@@ -47,6 +47,7 @@ export default class Example extends PureComponent {
         <Legend />
         <Line type="monotone" dataKey="pv" stroke="#8884d8" />
         <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+        <Tooltip />
       </LineChart>
     );
   }

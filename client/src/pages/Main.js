@@ -32,9 +32,9 @@ class Main extends Component {
       return (
         <div>
           <Nav />
-          <Title />
-          <DateRow weekNum={this.state.weekNum}/>
           <Container>
+            <Title />
+            <DateRow weekNum={this.state.weekNum}/>
             <Row>
               <Col className="col-6">
                 <Scoreboard weekNum={this.state.weekNum}/>
@@ -52,7 +52,7 @@ class Main extends Component {
                     <PlayerCard />
                   </Col>
                 </Row>
-                {/* 2/3 scoring player */}
+                {/* 3/4 scoring player */}
                 <Row>
                   <Col className="col-6">
                     <PlayerCard />
